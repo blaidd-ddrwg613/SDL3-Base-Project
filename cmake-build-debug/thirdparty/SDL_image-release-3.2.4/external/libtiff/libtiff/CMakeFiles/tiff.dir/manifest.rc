@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+2 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Code/SDL3 Base Project/cmake-build-debug/thirdparty/SDL_image-release-3.2.4/external/libtiff/libtiff/CMakeFiles/tiff.dir/embed.manifest"

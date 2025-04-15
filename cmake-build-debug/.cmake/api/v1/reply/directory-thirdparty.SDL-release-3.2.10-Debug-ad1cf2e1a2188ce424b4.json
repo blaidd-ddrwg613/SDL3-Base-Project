@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "thirdparty/SDL-release-3.2.10",
+		"source" : "thirdparty/SDL-release-3.2.10"
+	}
+}

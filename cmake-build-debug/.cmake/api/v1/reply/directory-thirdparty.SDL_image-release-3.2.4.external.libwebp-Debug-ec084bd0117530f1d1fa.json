@@ -1,0 +1,564 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"configure_pkg_config"
+		],
+		"files" : 
+		[
+			"thirdparty/SDL_image-release-3.2.4/external/libwebp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 329,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 330,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 374,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 410,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 427,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 513,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 523,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 540,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 199,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 565,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 605,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 615,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 732,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 742,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 774,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 802,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 802,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 802,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 802,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 802,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 802,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/SDL_image-release-3.2.4/external/libwebp/sharpyuv/libsharpyuv.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/libsharpyuv.lib"
+			],
+			"targetId" : "sharpyuv::@3753072ee42c3dc38d8a",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/webp/sharpyuv",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/sharpyuv/sharpyuv.h",
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/sharpyuv/sharpyuv_csp.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/SDL_image-release-3.2.4/external/libwebp/src/libwebpdecoder.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/SDL_image-release-3.2.4/external/libwebp/src/libwebp.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/SDL_image-release-3.2.4/external/libwebp/src/demux/libwebpdemux.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"dwebp.exe"
+			],
+			"targetId" : "dwebp::@3753072ee42c3dc38d8a",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"cwebp.exe"
+			],
+			"targetId" : "cwebp::@3753072ee42c3dc38d8a",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/SDL_image-release-3.2.4/external/libwebp/src/mux/libwebpmux.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"img2webp.exe"
+			],
+			"targetId" : "img2webp::@3753072ee42c3dc38d8a",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"webpinfo.exe"
+			],
+			"targetId" : "webpinfo::@3753072ee42c3dc38d8a",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"webpmux.exe"
+			],
+			"targetId" : "webpmux::@3753072ee42c3dc38d8a",
+			"targetIndex" : 36,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/libwebpdecoder.lib"
+			],
+			"targetId" : "webpdecoder::@3753072ee42c3dc38d8a",
+			"targetIndex" : 30,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libwebpdecoder.dll"
+			],
+			"targetId" : "webpdecoder::@3753072ee42c3dc38d8a",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "include/webp",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/decode.h",
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/libwebp.lib"
+			],
+			"targetId" : "webp::@3753072ee42c3dc38d8a",
+			"targetIndex" : 27,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libwebp.dll"
+			],
+			"targetId" : "webp::@3753072ee42c3dc38d8a",
+			"targetIndex" : 27,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "include/webp",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/decode.h",
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/encode.h",
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/libwebpdemux.lib"
+			],
+			"targetId" : "webpdemux::@3753072ee42c3dc38d8a",
+			"targetIndex" : 31,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libwebpdemux.dll"
+			],
+			"targetId" : "webpdemux::@3753072ee42c3dc38d8a",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "include/webp",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/decode.h",
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/demux.h",
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/mux_types.h",
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/libwebpmux.lib"
+			],
+			"targetId" : "libwebpmux::@3753072ee42c3dc38d8a",
+			"targetIndex" : 16,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"libwebpmux.dll"
+			],
+			"targetId" : "libwebpmux::@3753072ee42c3dc38d8a",
+			"targetIndex" : 16,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "include/webp",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/mux.h",
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/mux_types.h",
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/src/webp/types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/WebP/cmake",
+			"exportName" : "WebPTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "sharpyuv::@3753072ee42c3dc38d8a",
+					"index" : 20
+				},
+				{
+					"id" : "webpdecoder::@3753072ee42c3dc38d8a",
+					"index" : 30
+				},
+				{
+					"id" : "webp::@3753072ee42c3dc38d8a",
+					"index" : 27
+				},
+				{
+					"id" : "webpdemux::@3753072ee42c3dc38d8a",
+					"index" : 31
+				},
+				{
+					"id" : "libwebpmux::@3753072ee42c3dc38d8a",
+					"index" : 16
+				}
+			],
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/CMakeFiles/Export/3dd5097d708f2adcdf4871ccc089782a/WebPTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "share/WebP/cmake",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/SDL_image-release-3.2.4/external/libwebp/WebPConfigVersion.cmake",
+				"cmake-build-debug/thirdparty/SDL_image-release-3.2.4/external/libwebp/WebPConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "doc",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/man/cwebp.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "doc",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/man/dwebp.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "doc",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/man/img2webp.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "doc",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/man/vwebp.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "doc",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/man/webpmux.1"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "doc",
+			"destination" : "share/man/man1",
+			"paths" : 
+			[
+				"thirdparty/SDL_image-release-3.2.4/external/libwebp/man/webpinfo.1"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/SDL_image-release-3.2.4/external/libwebp",
+		"source" : "thirdparty/SDL_image-release-3.2.4/external/libwebp"
+	}
+}

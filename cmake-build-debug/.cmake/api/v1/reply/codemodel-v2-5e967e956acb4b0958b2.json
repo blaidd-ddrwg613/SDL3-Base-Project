@@ -1,0 +1,718 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "thirdparty/SDL-release-3.2.10",
+					"jsonFile" : "directory-thirdparty.SDL-release-3.2.10-Debug-ad1cf2e1a2188ce424b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "thirdparty/SDL-release-3.2.10",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_image-release-3.2.4",
+					"childIndexes" : 
+					[
+						3,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.SDL_image-release-3.2.4-Debug-f07237b865e0fe1a500c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "thirdparty/SDL_image-release-3.2.4",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_image-release-3.2.4/external/libtiff",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-thirdparty.SDL_image-release-3.2.4.external.libtiff-Debug-ab89588b870868e5f7d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "thirdparty/SDL_image-release-3.2.4/external/libtiff",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_image-release-3.2.4/external/libtiff/port",
+					"jsonFile" : "directory-thirdparty.SDL_image-release-3.2.4.external.libtiff.port-Debug-64761184c0e29451f7e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "thirdparty/SDL_image-release-3.2.4/external/libtiff/port",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_image-release-3.2.4/external/libtiff/libtiff",
+					"jsonFile" : "directory-thirdparty.SDL_image-release-3.2.4.external.libtiff.libtiff-Debug-eb0d69cc792fef79a6a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "thirdparty/SDL_image-release-3.2.4/external/libtiff/libtiff",
+					"targetIndexes" : 
+					[
+						21,
+						22,
+						23,
+						26
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_image-release-3.2.4/external/libtiff/build",
+					"jsonFile" : "directory-thirdparty.SDL_image-release-3.2.4.external.libtiff.build-Debug-a3f2a7b020cd49fca1ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "thirdparty/SDL_image-release-3.2.4/external/libtiff/build"
+				},
+				{
+					"build" : "thirdparty/SDL_image-release-3.2.4/external/libwebp",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.SDL_image-release-3.2.4.external.libwebp-Debug-ec084bd0117530f1d1fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "thirdparty/SDL_image-release-3.2.4/external/libwebp",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						20,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_ttf-release-3.2.2",
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.SDL_ttf-release-3.2.2-Debug-d002f8473ecb26638668.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "thirdparty/SDL_ttf-release-3.2.2",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.SDL_ttf-release-3.2.2.external.harfbuzz-Debug-47a59982d9b45350b2d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 6,
+					"source" : "thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_ttf-release-3.2.2/external/freetype",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.SDL_ttf-release-3.2.2.external.freetype-Debug-5b4853fc299048ec3bad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 7,
+					"source" : "thirdparty/SDL_ttf-release-3.2.2/external/freetype",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_ttf-release-3.2.2/external/plutovg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.SDL_ttf-release-3.2.2.external.plutovg-Debug-b3b4dee92a8bb234663f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 8,
+					"source" : "thirdparty/SDL_ttf-release-3.2.2/external/plutovg",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "thirdparty/SDL_ttf-release-3.2.2/external/plutosvg",
+					"jsonFile" : "directory-thirdparty.SDL_ttf-release-3.2.2.external.plutosvg-Debug-72fdc01cae8cff577988.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 9,
+					"source" : "thirdparty/SDL_ttf-release-3.2.2/external/plutosvg",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "project",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "SDL3_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "tiff",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "WebP",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8,
+						10,
+						12,
+						13,
+						14,
+						15,
+						16,
+						20,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9
+					],
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "SDL3_ttf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "harfbuzz",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "freetype",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "plutovg",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "plutosvg",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-shared::@896950e3c3ae56e2803d",
+					"jsonFile" : "target-SDL3-shared-Debug-a118b9b27d88d31dd86e.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "SDL3_image-shared::@48e9213db2577a065b53",
+					"jsonFile" : "target-SDL3_image-shared-Debug-e64020cfcf3de880bf5a.json",
+					"name" : "SDL3_image-shared",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@896950e3c3ae56e2803d",
+					"jsonFile" : "target-SDL3_test-Debug-22e63d5fd3739784ac13.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "SDL3_ttf-shared::@54f3b792e193bb8c775f",
+					"jsonFile" : "target-SDL3_ttf-shared-Debug-73b43cc09f2e923e469e.json",
+					"name" : "SDL3_ttf-shared",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL_uclibc::@896950e3c3ae56e2803d",
+					"jsonFile" : "target-SDL_uclibc-Debug-c0ffee7c93516fbedbf4.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "cwebp::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-cwebp-Debug-0dad2d7b726e9300eced.json",
+					"name" : "cwebp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "dwebp::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-dwebp-Debug-05b855dbced1c95b1794.json",
+					"name" : "dwebp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "exampleutil::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-exampleutil-Debug-6c61fc7ac98c8f59e9ae.json",
+					"name" : "exampleutil",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "extras::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-extras-Debug-5b3d22e3c4c4e33ef157.json",
+					"name" : "extras",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "freetype::@1375c49c391e111b2050",
+					"jsonFile" : "target-freetype-Debug-178126b7610147122a22.json",
+					"name" : "freetype",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "get_disto::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-get_disto-Debug-f76f53dd19d8eb35b79f.json",
+					"name" : "get_disto",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "harfbuzz::@d71d4b9646ffd55cd904",
+					"jsonFile" : "target-harfbuzz-Debug-669ab26983c82c1fe11e.json",
+					"name" : "harfbuzz",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "imagedec::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-imagedec-Debug-8bf380624d59bca1c044.json",
+					"name" : "imagedec",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "imageenc::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-imageenc-Debug-82b5d74922dffc1bc2ca.json",
+					"name" : "imageenc",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "imageioutil::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-imageioutil-Debug-840e3c397fa1ebe37a90.json",
+					"name" : "imageioutil",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "img2webp::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-img2webp-Debug-3c1e76d37a5f3aca30a2.json",
+					"name" : "img2webp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "libwebpmux::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-libwebpmux-Debug-daf4f0e239848f8ba7c7.json",
+					"name" : "libwebpmux",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "plutosvg::@ba48c803b6cacbcf3b3a",
+					"jsonFile" : "target-plutosvg-Debug-b878370847b9910ea841.json",
+					"name" : "plutosvg",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "plutovg::@1c73ea8f09c358fc3d19",
+					"jsonFile" : "target-plutovg-Debug-ba98ff6fe96ca10f1dd4.json",
+					"name" : "plutovg",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project-Debug-ef936e444f6507fa8f19.json",
+					"name" : "project",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "sharpyuv::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-sharpyuv-Debug-7dd8a224d58116430d21.json",
+					"name" : "sharpyuv",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tiff::@ee0a48cee8ccc0a647bb",
+					"jsonFile" : "target-tiff-Debug-84f1b0b078a74ef7b7e8.json",
+					"name" : "tiff",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tiff_faxtable::@ee0a48cee8ccc0a647bb",
+					"jsonFile" : "target-tiff_faxtable-Debug-6fc0f425e0e689c2df8f.json",
+					"name" : "tiff_faxtable",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tiff_mkg3states::@ee0a48cee8ccc0a647bb",
+					"jsonFile" : "target-tiff_mkg3states-Debug-ac515613dea1049293ba.json",
+					"name" : "tiff_mkg3states",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "tiff_port::@b77d948f9ce0363354fc",
+					"jsonFile" : "target-tiff_port-Debug-bcbd6737ba1e7474736b.json",
+					"name" : "tiff_port",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "tiff_release::@e8b91718712450a30f1f",
+					"jsonFile" : "target-tiff_release-Debug-673927f4076f5b9cf265.json",
+					"name" : "tiff_release",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tiffxx::@ee0a48cee8ccc0a647bb",
+					"jsonFile" : "target-tiffxx-Debug-64d74cec8b027a0045fc.json",
+					"name" : "tiffxx",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webp::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webp-Debug-c6a237e44f4703eb90ba.json",
+					"name" : "webp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webp_quality::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webp_quality-Debug-b3a66dd3711ff2d84fb2.json",
+					"name" : "webp_quality",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webpdecode::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webpdecode-Debug-7e8a747d03f91da866a4.json",
+					"name" : "webpdecode",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webpdecoder::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webpdecoder-Debug-7a6398781b133bd45b22.json",
+					"name" : "webpdecoder",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webpdemux::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webpdemux-Debug-55b692ce021fab932bef.json",
+					"name" : "webpdemux",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webpdsp::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webpdsp-Debug-d3cf6a917a146698fd76.json",
+					"name" : "webpdsp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webpdspdecode::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webpdspdecode-Debug-40f652a60d3523e84bf4.json",
+					"name" : "webpdspdecode",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webpencode::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webpencode-Debug-151a502b27751d37bc1c.json",
+					"name" : "webpencode",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webpinfo::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webpinfo-Debug-346c4538a88f2fc06af0.json",
+					"name" : "webpinfo",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webpmux::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webpmux-Debug-f3ec73959ce70684b4f8.json",
+					"name" : "webpmux",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webputils::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webputils-Debug-c7c5e64dac3426aac717.json",
+					"name" : "webputils",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "webputilsdecode::@3753072ee42c3dc38d8a",
+					"jsonFile" : "target-webputilsdecode-Debug-41601be75fae61edd786.json",
+					"name" : "webputilsdecode",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Code/SDL3 Base Project/cmake-build-debug",
+		"source" : "C:/Code/SDL3 Base Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

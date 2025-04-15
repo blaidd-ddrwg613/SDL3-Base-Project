@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/SDL_ttf-release-3.2.2/external/freetype/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 576,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 584,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "headers",
+			"destination" : "include/freetype2",
+			"paths" : 
+			[
+				{
+					"from" : "thirdparty/SDL_ttf-release-3.2.2/external/freetype/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "headers",
+			"destination" : "include/freetype2/freetype/config",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/SDL_ttf-release-3.2.2/external/freetype/include/freetype/config/ftconfig.h",
+				"cmake-build-debug/thirdparty/SDL_ttf-release-3.2.2/external/freetype/include/freetype/config/ftoption.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/SDL_ttf-release-3.2.2/external/freetype",
+		"source" : "thirdparty/SDL_ttf-release-3.2.2/external/freetype"
+	}
+}

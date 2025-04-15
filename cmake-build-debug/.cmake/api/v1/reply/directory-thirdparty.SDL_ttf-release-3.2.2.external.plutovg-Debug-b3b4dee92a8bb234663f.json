@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/SDL_ttf-release-3.2.2/external/plutovg/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 97,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/plutovg",
+			"paths" : 
+			[
+				"thirdparty/SDL_ttf-release-3.2.2/external/plutovg/include/plutovg.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"thirdparty/SDL_ttf-release-3.2.2/external/plutovg/plutovg.lib"
+			],
+			"targetId" : "plutovg::@1c73ea8f09c358fc3d19",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/plutovg",
+			"exportName" : "plutovgTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "plutovg::@1c73ea8f09c358fc3d19",
+					"index" : 18
+				}
+			],
+			"paths" : 
+			[
+				"thirdparty/SDL_ttf-release-3.2.2/external/plutovg/CMakeFiles/Export/f6ef2f3f18222bc8084975f00f853305/plutovgTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/plutovg",
+			"paths" : 
+			[
+				"cmake-build-debug/thirdparty/SDL_ttf-release-3.2.2/external/plutovg/plutovgConfig.cmake",
+				"cmake-build-debug/thirdparty/SDL_ttf-release-3.2.2/external/plutovg/plutovgConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/SDL_ttf-release-3.2.2/external/plutovg",
+		"source" : "thirdparty/SDL_ttf-release-3.2.2/external/plutovg"
+	}
+}

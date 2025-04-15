@@ -1,0 +1,75 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 741,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/harfbuzz",
+			"paths" : 
+			[
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-aat-layout.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-aat.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-blob.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-buffer.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-common.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-cplusplus.hh",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-deprecated.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-draw.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-face.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-font.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-map.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-color.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-deprecated.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-font.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-layout.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-math.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-meta.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-metrics.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-name.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-shape.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot-var.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ot.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-paint.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-set.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-shape-plan.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-shape.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-style.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-unicode.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-version.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-ft.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-gdi.h",
+				"thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz/src/hb-uniscribe.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz",
+		"source" : "thirdparty/SDL_ttf-release-3.2.2/external/harfbuzz"
+	}
+}
